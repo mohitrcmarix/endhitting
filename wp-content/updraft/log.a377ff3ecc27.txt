@@ -1,0 +1,234 @@
+0000.167 () Opened log file at time: Thu, 12 Mar 2026 06:42:52 +0000 on http://localhost/test1
+0000.168 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.2.30 (apache2handler, Linux ctpl220 6.8.0-101-generic #101~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 11 13:19:54 UTC  x86_64) MySQL: 8.0.45-0ubuntu0.22.04.1 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.6M | 38M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.168 () Free space on disk containing Updraft's temporary directory: 385509.7 MB
+0000.543 () Restore setup, now closing connection and starting restore over AJAX.
+0000.344 () Opened log file at time: Thu, 12 Mar 2026 06:42:54 +0000 on http://localhost/test1
+0000.344 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.2.30 (apache2handler, Linux ctpl220 6.8.0-101-generic #101~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 11 13:19:54 UTC  x86_64) MySQL: 8.0.45-0ubuntu0.22.04.1 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30M | 32M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.344 () Free space on disk containing Updraft's temporary directory: 385509.6 MB
+0000.358 () Ensuring WP_Filesystem is setup for a restore
+0000.358 () WP_Filesystem is setup and ready for a restore
+0000.722 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["lsn_options","lsn_users","lsn_usermeta","lsn_actionscheduler_actions","lsn_actionscheduler_claims","lsn_actionscheduler_groups","lsn_actionscheduler_logs","lsn_commentmeta","lsn_comments","lsn_links","lsn_postmeta","lsn_posts","lsn_term_relationships","lsn_term_taxonomy","lsn_termmeta","lsn_terms","lsn_e_events","lsn_e_submissions","lsn_e_submissions_actions_log","lsn_e_submissions_values","lsn_orgseriesicons","lsn_sgs_log_events","lsn_sgs_log_visitors","lsn_wpf_meta","lsn_wpf_order_items","lsn_wpf_order_transactions","lsn_wpf_submission_activities","lsn_wpf_submissions","lsn_wpf_subscriptions","lsn_wpforms_logs","lsn_wpforms_payment_meta","lsn_wpforms_payments","lsn_wpforms_tasks_meta","lsn_wpsp_notifications","lsn_wpsp_transactions"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.746 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.912 () Entity: db
+0000.912 () restore_backup(backup_file=backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.913 () Unpacking backup... (backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-db.gz, 10.7 Mb)
+0000.933 () Database successfully unpacked
+0000.933 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.934 () Using direct MySQL access; value of use_mysqli is: 1
+0000.935 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0008.614 () Max packet size: 64 MB
+0008.614 () Entering maintenance mode
+0008.614 () Enabling Maintenance mode&#8230;
+0010.225 () Backup of: https://banpaddlingar.com
+0010.235 () Content URL: https://banpaddlingar.com/wp-content
+0010.235 () Uploads URL: https://banpaddlingar.com/wp-content/uploads
+0010.235 () Old table prefix: lsn_
+0010.235 () Old ABSPATH: /home/customer/www/banpaddlingar.com/public_html/
+0010.235 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0010.235 () Site information: multisite=0
+0010.235 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0010.257 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0010.286 () New table prefix: qn_
+0010.578 () Processing table (InnoDB): lsn_options - will restore as: qn_options
+0020.327 () Atomic restore: dropping original table (wp_options)
+0022.461 () Atomic restore: renaming new table (qn_options) to final table name (wp_options)
+0023.579 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0063.269 () Table prefix has changed: changing options table field(s) accordingly (options)
+0063.494 () Options table fields changed OK
+0063.930 () Search and replacing table: wp_options: rows: 538
+0064.716 () Processing table (InnoDB): lsn_users - will restore as: qn_users
+0068.238 () Atomic restore: dropping original table (wp_users)
+0070.567 () Atomic restore: renaming new table (qn_users) to final table name (wp_users)
+0072.506 () Search and replacing table: wp_users: rows: 3
+0072.869 () Processing table (InnoDB): lsn_usermeta - will restore as: qn_usermeta
+0077.102 () Atomic restore: dropping original table (wp_usermeta)
+0078.358 () Atomic restore: renaming new table (qn_usermeta) to final table name (wp_usermeta)
+0079.234 () Table prefix has changed: changing usermeta table field(s) accordingly
+0079.642 () Usermeta table fields changed OK
+0079.755 () Search and replacing table: wp_usermeta: rows: 134
+0079.851 () Processing table (InnoDB): lsn_actionscheduler_actions - will restore as: qn_actionscheduler_actions
+0095.360 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0095.442 () Atomic restore: renaming new table (qn_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0097.635 () Search and replacing table: wp_actionscheduler_actions: rows: 192
+0097.656 () Processing table (InnoDB): lsn_actionscheduler_claims - will restore as: qn_actionscheduler_claims
+0099.673 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0099.755 () Atomic restore: renaming new table (qn_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0100.441 () Search and replacing table: wp_actionscheduler_claims: rows: 0
+0100.441 () Processing table (InnoDB): lsn_actionscheduler_groups - will restore as: qn_actionscheduler_groups
+0102.135 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0102.293 () Atomic restore: renaming new table (qn_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0102.784 () Search and replacing table: wp_actionscheduler_groups: rows: 4
+0102.785 () Processing table (InnoDB): lsn_actionscheduler_logs - will restore as: qn_actionscheduler_logs
+0104.906 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0105.005 () Atomic restore: renaming new table (qn_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0105.867 () Search and replacing table: wp_actionscheduler_logs: rows: 566
+0105.876 () Processing table (InnoDB): lsn_commentmeta - will restore as: qn_commentmeta
+0107.311 () Atomic restore: dropping original table (wp_commentmeta)
+0108.044 () Atomic restore: renaming new table (qn_commentmeta) to final table name (wp_commentmeta)
+0108.646 () Search and replacing table: wp_commentmeta: rows: 0
+0108.646 () Processing table (InnoDB): lsn_comments - will restore as: qn_comments
+0111.192 () Atomic restore: dropping original table (wp_comments)
+0111.758 () Atomic restore: renaming new table (qn_comments) to final table name (wp_comments)
+0112.590 () Search and replacing table: wp_comments: rows: 24
+0112.592 () Processing table (InnoDB): lsn_links - will restore as: qn_links
+0113.289 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0113.498 () Atomic restore: dropping original table (wp_links)
+0113.888 () Atomic restore: renaming new table (qn_links) to final table name (wp_links)
+0114.732 () Search and replacing table: wp_links: rows: 0
+0114.732 () Processing table (InnoDB): lsn_postmeta - will restore as: qn_postmeta
+0115.592 () Database queries processed: 50 in 114.52 seconds
+0199.223 () Database queries processed: 100 in 198.15 seconds
+0213.123 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0213.551 () Atomic restore: dropping original table (wp_postmeta)
+0218.559 () Atomic restore: renaming new table (qn_postmeta) to final table name (wp_postmeta)
+0221.746 () Search and replacing table: wp_postmeta: rows: 1356
+0556.466 () Processing table (InnoDB): lsn_posts - will restore as: qn_posts
+0597.259 () Database queries processed: 150 in 596.19 seconds
+0626.422 () Database queries processed: 200 in 625.35 seconds
+0647.337 () Atomic restore: dropping original table (wp_posts)
+0648.977 () Atomic restore: renaming new table (qn_posts) to final table name (wp_posts)
+0652.916 () Skipping search/replace on GUID column in posts table
+0653.152 () Search and replacing table: wp_posts: rows: 1721
+1174.736 () Processing table (InnoDB): lsn_term_relationships - will restore as: qn_term_relationships
+1178.817 () Atomic restore: dropping original table (wp_term_relationships)
+1179.777 () Atomic restore: renaming new table (qn_term_relationships) to final table name (wp_term_relationships)
+1180.287 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+1180.287 () Processing table (InnoDB): lsn_term_taxonomy - will restore as: qn_term_taxonomy
+1182.280 () Atomic restore: dropping original table (wp_term_taxonomy)
+1183.023 () Atomic restore: renaming new table (qn_term_taxonomy) to final table name (wp_term_taxonomy)
+1183.961 () Search and replacing table: wp_term_taxonomy: rows: 17
+1183.995 () Processing table (InnoDB): lsn_termmeta - will restore as: qn_termmeta
+1186.549 () Atomic restore: dropping original table (wp_termmeta)
+1187.356 () Atomic restore: renaming new table (qn_termmeta) to final table name (wp_termmeta)
+1188.206 () Search and replacing table: wp_termmeta: rows: 26
+1188.494 () Processing table (InnoDB): lsn_terms - will restore as: qn_terms
+1191.021 () Atomic restore: dropping original table (wp_terms)
+1191.772 () Atomic restore: renaming new table (qn_terms) to final table name (wp_terms)
+1192.479 () Search and replacing table: wp_terms: rows: 17
+1192.479 () Processing table (InnoDB): lsn_e_events - will restore as: qn_e_events
+1194.336 () Atomic restore: dropping original table (wp_e_events)
+1195.362 () Atomic restore: renaming new table (qn_e_events) to final table name (wp_e_events)
+1197.021 () Search and replacing table: wp_e_events: rows: 10
+1197.054 () Processing table (InnoDB): lsn_e_submissions - will restore as: qn_e_submissions
+1203.225 () Atomic restore: dropping original table (wp_e_submissions)
+1203.326 () Atomic restore: renaming new table (qn_e_submissions) to final table name (wp_e_submissions)
+1205.187 () Search and replacing table: wp_e_submissions: rows: 0
+1205.187 () Processing table (InnoDB): lsn_e_submissions_actions_log - will restore as: qn_e_submissions_actions_log
+1211.829 () Atomic restore: dropping original table (wp_e_submissions_actions_log)
+1212.044 () Atomic restore: renaming new table (qn_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+1214.736 () Search and replacing table: wp_e_submissions_actions_log: rows: 0
+1214.736 () Processing table (InnoDB): lsn_e_submissions_values - will restore as: qn_e_submissions_values
+1224.884 () Atomic restore: dropping original table (wp_e_submissions_values)
+1225.755 () Atomic restore: renaming new table (qn_e_submissions_values) to final table name (wp_e_submissions_values)
+1230.294 () Search and replacing table: wp_e_submissions_values: rows: 0
+1230.294 () Processing table (InnoDB): lsn_orgseriesicons - will restore as: qn_orgseriesicons
+1233.047 () Atomic restore: dropping original table (wp_orgseriesicons)
+1233.243 () Atomic restore: renaming new table (qn_orgseriesicons) to final table name (wp_orgseriesicons)
+1234.641 () Search and replacing table: wp_orgseriesicons: rows: 0
+1234.641 () Processing table (InnoDB): lsn_sgs_log_events - will restore as: qn_sgs_log_events
+1241.304 () Atomic restore: dropping original table (wp_sgs_log_events)
+1241.491 () Database queries processed: 250 in 1240.42 seconds
+1241.492 () Atomic restore: renaming new table (qn_sgs_log_events) to final table name (wp_sgs_log_events)
+1243.386 () Search and replacing table: wp_sgs_log_events: rows: 504
+1245.900 () Processing table (InnoDB): lsn_sgs_log_visitors - will restore as: qn_sgs_log_visitors
+1248.221 () Atomic restore: dropping original table (wp_sgs_log_visitors)
+1248.637 () Atomic restore: renaming new table (qn_sgs_log_visitors) to final table name (wp_sgs_log_visitors)
+1250.041 () Search and replacing table: wp_sgs_log_visitors: rows: 182
+1250.045 () Processing table (InnoDB): lsn_wpf_meta - will restore as: qn_wpf_meta
+1252.371 () Atomic restore: dropping original table (wp_wpf_meta)
+1252.462 () Atomic restore: renaming new table (qn_wpf_meta) to final table name (wp_wpf_meta)
+1253.150 () Search and replacing table: wp_wpf_meta: rows: 0
+1253.150 () Processing table (InnoDB): lsn_wpf_order_items - will restore as: qn_wpf_order_items
+1254.930 () Atomic restore: dropping original table (wp_wpf_order_items)
+1255.021 () Atomic restore: renaming new table (qn_wpf_order_items) to final table name (wp_wpf_order_items)
+1255.788 () Search and replacing table: wp_wpf_order_items: rows: 0
+1255.788 () Processing table (InnoDB): lsn_wpf_order_transactions - will restore as: qn_wpf_order_transactions
+1257.205 () Atomic restore: dropping original table (wp_wpf_order_transactions)
+1257.263 () Atomic restore: renaming new table (qn_wpf_order_transactions) to final table name (wp_wpf_order_transactions)
+1257.968 () Search and replacing table: wp_wpf_order_transactions: rows: 0
+1257.968 () Processing table (InnoDB): lsn_wpf_submission_activities - will restore as: qn_wpf_submission_activities
+1259.866 () Atomic restore: dropping original table (wp_wpf_submission_activities)
+1259.951 () Atomic restore: renaming new table (qn_wpf_submission_activities) to final table name (wp_wpf_submission_activities)
+1261.162 () Search and replacing table: wp_wpf_submission_activities: rows: 0
+1261.162 () Processing table (InnoDB): lsn_wpf_submissions - will restore as: qn_wpf_submissions
+1262.625 () Atomic restore: dropping original table (wp_wpf_submissions)
+1262.725 () Atomic restore: renaming new table (qn_wpf_submissions) to final table name (wp_wpf_submissions)
+1264.152 () Search and replacing table: wp_wpf_submissions: rows: 0
+1264.152 () Processing table (InnoDB): lsn_wpf_subscriptions - will restore as: qn_wpf_subscriptions
+1266.578 () Atomic restore: dropping original table (wp_wpf_subscriptions)
+1266.698 () Atomic restore: renaming new table (qn_wpf_subscriptions) to final table name (wp_wpf_subscriptions)
+1268.438 () Search and replacing table: wp_wpf_subscriptions: rows: 0
+1268.438 () Processing table (InnoDB): lsn_wpforms_logs - will restore as: qn_wpforms_logs
+1270.366 () Atomic restore: dropping original table (wp_wpforms_logs)
+1270.499 () Atomic restore: renaming new table (qn_wpforms_logs) to final table name (wp_wpforms_logs)
+1271.452 () Search and replacing table: wp_wpforms_logs: rows: 18
+1271.453 () Processing table (InnoDB): lsn_wpforms_payment_meta - will restore as: qn_wpforms_payment_meta
+1274.810 () Atomic restore: dropping original table (wp_wpforms_payment_meta)
+1275.118 () Atomic restore: renaming new table (qn_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+1276.676 () Search and replacing table: wp_wpforms_payment_meta: rows: 0
+1276.676 () Processing table (InnoDB): lsn_wpforms_payments - will restore as: qn_wpforms_payments
+1281.315 () Atomic restore: dropping original table (wp_wpforms_payments)
+1281.405 () Atomic restore: renaming new table (qn_wpforms_payments) to final table name (wp_wpforms_payments)
+1283.459 () Search and replacing table: wp_wpforms_payments: rows: 0
+1283.460 () Processing table (InnoDB): lsn_wpforms_tasks_meta - will restore as: qn_wpforms_tasks_meta
+1286.588 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+1286.797 () Atomic restore: renaming new table (qn_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+1288.510 () Search and replacing table: wp_wpforms_tasks_meta: rows: 4
+1288.511 () Processing table (InnoDB): lsn_wpsp_notifications - will restore as: qn_wpsp_notifications
+1291.426 () Atomic restore: dropping original table (wp_wpsp_notifications)
+1291.500 () Atomic restore: renaming new table (qn_wpsp_notifications) to final table name (wp_wpsp_notifications)
+1293.439 () Search and replacing table: wp_wpsp_notifications: rows: 0
+1293.439 () Processing table (InnoDB): lsn_wpsp_transactions - will restore as: qn_wpsp_transactions
+1297.252 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+1297.812 () Unlocking database and leaving maintenance mode
+1297.812 () Disabling Maintenance mode&#8230;
+1297.898 () Atomic restore: dropping original table (wp_wpsp_transactions)
+1298.038 () Atomic restore: renaming new table (qn_wpsp_transactions) to final table name (wp_wpsp_transactions)
+1298.734 () Search and replacing table: wp_wpsp_transactions: rows: 0
+1298.734 () Finished: lines processed: 281 in 1297.66 seconds
+1298.911 () Cleaning up rubbish...
+1298.934 () Begin search and replace (updraftplus_restored_db)
+1298.934 () [Database-replace-site-url] Database: search and replace site URL
+1298.934 () Database search and replace: replace https://banpaddlingar.com in backup dump with http://localhost/test1
+1298.934 () Database search and replace: replace http://www.banpaddlingar.com in backup dump with http://localhost/test1
+1298.935 () Database search and replace: replace http://banpaddlingar.com in backup dump with http://localhost/test1
+1298.935 () Database search and replace: replace https://www.banpaddlingar.com in backup dump with http://localhost/test1
+1298.935 () Database search and replace: replace /home/customer/www/banpaddlingar.com/public_html in backup dump with /var/www/html/test1
+1298.936 () Search and replacing table: wp_actionscheduler_actions: already done
+1298.936 () Search and replacing table: wp_actionscheduler_claims: already done
+1298.937 () Search and replacing table: wp_actionscheduler_groups: already done
+1298.937 () Search and replacing table: wp_actionscheduler_logs: already done
+1298.937 () Search and replacing table: wp_commentmeta: already done
+1298.937 () Search and replacing table: wp_comments: already done
+1298.937 () Search and replacing table: wp_e_events: already done
+1298.937 () Search and replacing table: wp_e_submissions: already done
+1298.937 () Search and replacing table: wp_e_submissions_actions_log: already done
+1298.937 () Search and replacing table: wp_e_submissions_values: already done
+1298.937 () Search and replacing table: wp_links: already done
+1298.937 () Search and replacing table: wp_options: already done
+1298.937 () Search and replacing table: wp_orgseriesicons: already done
+1298.937 () Search and replacing table: wp_postmeta: already done
+1298.938 () Search and replacing table: wp_posts: already done
+1298.938 () Search and replacing table: wp_sgs_log_events: already done
+1298.938 () Search and replacing table: wp_sgs_log_visitors: already done
+1298.938 () Search and replacing table: wp_term_relationships: already done
+1298.938 () Search and replacing table: wp_term_taxonomy: already done
+1298.938 () Search and replacing table: wp_termmeta: already done
+1298.938 () Search and replacing table: wp_terms: already done
+1298.938 () Search and replacing table: wp_usermeta: already done
+1298.938 () Search and replacing table: wp_users: already done
+1298.938 () Search and replacing table: wp_wpf_meta: already done
+1298.938 () Search and replacing table: wp_wpf_order_items: already done
+1298.938 () Search and replacing table: wp_wpf_order_transactions: already done
+1298.938 () Search and replacing table: wp_wpf_submission_activities: already done
+1298.938 () Search and replacing table: wp_wpf_submissions: already done
+1298.938 () Search and replacing table: wp_wpf_subscriptions: already done
+1298.939 () Search and replacing table: wp_wpforms_logs: already done
+1298.939 () Search and replacing table: wp_wpforms_payment_meta: already done
+1298.939 () Search and replacing table: wp_wpforms_payments: already done
+1298.939 () Search and replacing table: wp_wpforms_tasks_meta: already done
+1298.939 () Search and replacing table: wp_wpsp_notifications: already done
+1298.939 () Search and replacing table: wp_wpsp_transactions: already done
+1299.570 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+1299.870 () Restore successful!
+1299.870 () Restore successful

@@ -1,0 +1,76 @@
+0000.239 () Opened log file at time: Thu, 12 Mar 2026 06:30:07 +0000 on http://localhost/test1
+0000.240 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.2.30 (apache2handler, Linux ctpl220 6.8.0-101-generic #101~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 11 13:19:54 UTC  x86_64) MySQL: 8.0.45-0ubuntu0.22.04.1 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.6M | 38M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.240 () Free space on disk containing Updraft's temporary directory: 385931.3 MB
+0000.490 () Restore setup, now closing connection and starting restore over AJAX.
+0000.137 () Opened log file at time: Thu, 12 Mar 2026 06:30:08 +0000 on http://localhost/test1
+0000.138 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.2.30 (apache2handler, Linux ctpl220 6.8.0-101-generic #101~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 11 13:19:54 UTC  x86_64) MySQL: 8.0.45-0ubuntu0.22.04.1 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30M | 32M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.138 () Free space on disk containing Updraft's temporary directory: 385930.8 MB
+0000.152 () Ensuring WP_Filesystem is setup for a restore
+0000.152 () WP_Filesystem is setup and ready for a restore
+0000.240 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.243 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.354 () Entity: plugins
+0000.354 () restore_backup(backup_file=backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:38:"/var/www/html/test1/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.354 () Unpacking backup... (backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-plugins.zip, 86.9 MB)
+0000.355 () Unzipping backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-plugins.zip to /var/www/html/test1/wp-content/upgrade/ee02bba2/ using UpdraftPlus_ZipArchive, starting index 0
+0001.121 () Unzip progress: 3841 out of 24302 files (60.6 KB, plugins/publishpress-authors/CHANGELOG.md)
+0001.359 () Unzip progress: 4842 out of 24302 files (13.2 MB, plugins/publishpress-authors/coauthors-functions.php)
+0001.683 () Unzip progress: 5843 out of 24302 files (20 MB, plugins/stripe/data/templates/credit-card-payment-form.json)
+0002.386 () Unzip progress: 6844 out of 24302 files (48 MB, plugins/elementor/assets/lib/font-awesome/css/font-awesome.css)
+0003.441 () Unzip progress: 7845 out of 24302 files (83.9 MB, plugins/elementor/modules/library/traits/library.php)
+0004.147 () Unzip progress: 8846 out of 24302 files (96.5 MB, plugins/elementskit-lite/libs/framework/assets/images/onboard/shape-15.png)
+0004.751 () Unzip progress: 9847 out of 24302 files (122 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/RequestException.php)
+0005.444 () Unzip progress: 10848 out of 24302 files (132.5 MB, plugins/essential-addons-for-elementor-lite/assets/admin/images/layout-previews/woo-product-grid-preset-8.png)
+0006.208 () Unzip progress: 11849 out of 24302 files (152.3 MB, plugins/publishpress-series-pro/vendor/sabre/vobject/tests/VObject/VersionTest.php)
+0006.818 () Unzip progress: 12850 out of 24302 files (157.9 MB, plugins/elementskit/libs/composer/vendor/build/vendor/src/google/apiclient-services/src/Sheets/SpreadsheetProperties.php)
+0007.613 () Unzip progress: 13851 out of 24302 files (166 MB, plugins/wp-payment-form-pro/vendor/composer/LICENSE)
+0007.946 () Unzip progress: 14852 out of 24302 files (179.5 MB, plugins/tablepress/libraries/vendor/PhpSpreadsheet/RichText/index.php)
+0008.163 () Unzip progress: 15853 out of 24302 files (191.3 MB, plugins/blocksy-companion-pro/framework/premium/extensions/mega-menu/static/sass/main.scss)
+0008.564 () Unzip progress: 16854 out of 24302 files (204.9 MB, plugins/wpforms-lite/src/Lite/Admin/Education/Builder/Notifications.php)
+0009.134 () Unzip progress: 17855 out of 24302 files (217.3 MB, plugins/wpforms-lite/vendor_prefixed/stripe/stripe-php/lib/Util/DefaultLogger.php)
+0009.469 () Unzip progress: 18856 out of 24302 files (223.8 MB, plugins/wpforms-lite/vendor_prefixed/square/square/src/Models/Builders/SearchOrdersResponseBuilder.php)
+0009.859 () Unzip progress: 19857 out of 24302 files (226.7 MB, plugins/wpforms-lite/vendor_prefixed/square/square/src/Models/OrderFulfillmentRecipient.php)
+0010.054 () Unzip progress: 20858 out of 24302 files (232.4 MB, plugins/sg-security/vendor/composer/installers/src/Composer/Installers/OxidInstaller.php)
+0010.496 () Unzip progress: 21859 out of 24302 files (237.9 MB, plugins/publishpress-authors-pro/vendor/twig/twig/src/Node/Expression/Binary/LessEqualBinary.php)
+0011.044 () Unzip progress: 22860 out of 24302 files (257.6 MB, plugins/sg-cachepress/core/Rest/Rest_Helper_Cache.php)
+0011.564 () Unzip progress: 23861 out of 24302 files (271.3 MB, plugins/elementor-pro/modules/woocommerce/tags/product-title.php)
+0011.961 () Unzip progress: 24302 out of 24302 files (281.1 MB, plugins/elementor-pro/assets/js/preview.min.js)
+0011.987 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.987 () Moving old data: can potentially use wp_filesystem method / -old
+0011.987 () Moving old data out of the way...
+0012.111 () Top-level entities being moved: hello.php, akismet, index.php, updraftplus
+0012.112 () Moving unpacked backup into place...
+0012.932 () Top-level entities being moved: cf7-conditional-fields, sg-cachepress, elementor, siteground-migrator, elementor-pro, stripe, cf7-widget-elementor, publishpress-series-pro, essential-addons-for-elementor-lite, index.php, elementskit, publishpress-authors-pro, blocksy-companion-pro, sg-security, updraftplus, publishpress-authors, tablepress, wp-payment-form-pro, elementskit-lite, duplicate-page, contact-form-7, wpforms-lite, wordpress-importer
+0012.939 () Cleaning up rubbish...
+0013.185 () Entity: themes
+0013.185 () restore_backup(backup_file=backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-themes.zip, type=themes, info=a:3:{s:4:"path";s:37:"/var/www/html/test1/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0013.185 () Unpacking backup... (backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-themes.zip, 14.6 MB)
+0013.185 () Unzipping backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-themes.zip to /var/www/html/test1/wp-content/upgrade/e1c88369/ using UpdraftPlus_ZipArchive, starting index 0
+0014.057 () Unzip progress: 1002 out of 2121 files (8.1 MB, themes/twentytwentyfour/patterns/template-home-business.php)
+0015.010 () Unzip progress: 2003 out of 2121 files (20.9 MB, themes/blocksy/static/js/customizer/options/widget-area/customize-widgets/components/more-menu/interface/store/constants.js)
+0015.145 () Unzip progress: 2121 out of 2121 files (21.3 MB, themes/blocksy/static/js/editor/blocks/dynamic-data/Preview.js)
+0015.146 () Moving old data: filesystem method / updraft_dir is potentially possible
+0015.146 () Moving old data: can potentially use wp_filesystem method / -old
+0015.146 () Moving old data out of the way...
+0015.166 () Top-level entities being moved: twentytwentythree, index.php, twentytwentyfour, test, twentytwentyfive
+0015.166 () [Updraftplus] There was an error when performing the move operation by renaming or copying /var/www/html/test1/wp-content/themes/test to /var/www/html/test1/wp-content/updraft/themes-old/test: will attempt a recursive copy instead.
+0016.995 () Moving unpacked backup into place...
+0017.081 () Top-level entities being moved: blocksy-child, index.php, twentytwentyfour, blocksy, twentytwentyfive
+0017.082 () Cleaning up rubbish...
+0017.263 () Entity: uploads
+0017.264 () restore_backup(backup_file=backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:38:"/var/www/html/test1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0017.264 () Unpacking backup... (backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-uploads.zip, 44 MB)
+0017.264 () Unzipping backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-uploads.zip to /var/www/html/test1/wp-content/upgrade/50783656/ using UpdraftPlus_ZipArchive, starting index 0
+0018.649 () Unzip progress: 590 out of 590 files (46.2 MB, uploads/2021/02/paddle-880x393-1-300x134.jpeg)
+0018.680 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.680 () Moving old data: can potentially use wp_filesystem method / -old
+0018.680 () Moving old data out of the way...
+0018.681 () Moving unpacked backup into place...
+0018.701 () Cleaning up rubbish...
+0019.118 () Entity: others
+0019.118 () restore_backup(backup_file=backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-others.zip, type=others, info=a:2:{s:4:"path";s:30:"/var/www/html/test1/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0019.119 () Unpacking backup... (backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-others.zip, 0 MB)
+0019.119 () Unzipping backup_2026-03-11-1200_Arkansans_Against_School_Paddlin_3fe0578a8812-others.zip to /var/www/html/test1/wp-content/upgrade/0cf6f378/ using UpdraftPlus_ZipArchive, starting index 0
+0019.408 () Unzip progress: 6 out of 6 files (637 B, index.php)
+0019.409 () Cleaning up rubbish...
+0020.214 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)

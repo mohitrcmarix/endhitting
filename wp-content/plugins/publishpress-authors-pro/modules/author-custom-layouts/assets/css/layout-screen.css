@@ -1,0 +1,39 @@
+.publishpress-authors-editor-wrapper {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #272822;
+    position: inherit;
+    display: block;
+}
+
+div.cmb2-id-ppmacflt-layout div.cmb-th {
+    display: block !important;
+    width: 100% !important;
+}
+
+div.cmb2-id-ppmacflt-layout div.cmb-td {
+    float: left !important;
+    width: 100% !important;
+    position: relative; width: 100%; height: 800px;
+    padding-bottom: 20px;
+}
+
+div.cmb2-id-ppmacflt-layout div.cmb-td textarea.publishpress-authors-fallback-code {
+    display: none;
+}
+
+body.no-js div.cmb2-id-ppmacflt-layout div.cmb-td {
+    position: inherit;
+    width: auto;
+    height: auto;
+}
+
+body.no-js div.cmb2-id-ppmacflt-layout div.cmb-td .cmb2-metabox-description {
+    display: none;
+}
+
+body.no-js div.cmb2-id-ppmacflt-layout div.cmb-td textarea.publishpress-authors-fallback-code {
+    display: block;
+    width: 100%;
+    min-height: 500px;
+}

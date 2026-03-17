@@ -1,0 +1,25 @@
+jQuery( function($) {
+
+	$('#jaxseries').prepend('<span id="series-multiples-add"><input type="text" name="newseries" id="newseries" size="16" autocomplete="off"/><input type="button" name="Button" class="add:serieschecklist:jaxseries button" id="seriesadd" value="' + seriesL10n.add + '" /><input type="hidden"/><input type="hidden"/></span><span id="series-ajax-response"></span><span id="add-series-nonce" class="hidden">' + seriesL10n.addnonce + '</span>')
+
+	$('#jaxseries').on('click', '#seriesadd', function () {
+		/* console.log($('#newseries').val()); /**/
+
+		var data = {
+			action: 'add_series',
+			newseries: $('#newseries').val(),
+			addnonce: $('#add-series-nonce').text()
+		}
+		$.post(ajaxurl, data, function(response) {
+			var resp = $.parseJSON(response);
+			if ( !resp.error ) {
+				$('#newseries').val('');
+				$('ul#serieschecklist li:first').after(resp.html);
+				$('#series-'+resp.id).animate({backgroundColor: "transparent"}, 3000);
+				$('#add-series-nonce').text(resp.new_nonce);
+			} else {
+				$('#series-ajax-response').html(resp.error);
+			}
+		});
+	});
+});

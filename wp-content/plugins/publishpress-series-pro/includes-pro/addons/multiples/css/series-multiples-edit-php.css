@@ -1,0 +1,21 @@
+.series-li-part {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.series-li  {
+    margin-bottom: 5px !important;
+}
+
+.ppseries-column-ul {
+    margin: 0 !important;
+}
+
+.ppseries-title-container {
+    font-weight: bold;
+}
+
+.ppseries-title-container .series-part {
+    float: right;
+    margin-right: 20px;
+}

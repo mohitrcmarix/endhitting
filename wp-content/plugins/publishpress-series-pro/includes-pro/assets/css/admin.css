@@ -1,0 +1,29 @@
+
+.ppseries-licence-form-wrap {
+    min-height: 850px;
+    margin-top: 20px;
+}
+#ppseries_licence_key_input {
+    width: 300px;
+}
+
+.ppseries_licence_key_status {
+    margin-left: 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.ppseries_licence_key_status.active {
+    color: green;
+}
+
+.ppseries_licence_key_status.inactive {
+    color: #f54d4d;
+}
+
+.ppseries_licence_key_label {
+    color: black;
+    font-weight: normal;
+}

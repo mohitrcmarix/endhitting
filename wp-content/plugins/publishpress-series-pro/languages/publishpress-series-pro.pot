@@ -1,0 +1,216 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PublishPress Series Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-06 10:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-6.0\n"
+"X-Domain: publishpress-series-pro"
+
+#: includes-pro/addons/multiples/os-multi-setup.php:352
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\">%3$s</a> %4$s of %5$s%6$s"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:355
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\">%3$s</a> (Currently as %4$s)"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:312
+msgid ""
+"A short title of this post that will be used in the Series widget. Leave "
+"blank to use the full title."
+msgstr ""
+
+#: includes-pro/classes/licence.php:112 includes-pro/classes/licence.php:130
+#: includes-pro/classes/licence.php:140
+msgid "Activate License"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:75
+msgid "Add New"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:227
+msgid "Add New Series Group"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:224
+msgid "All Series Groups"
+msgstr ""
+
+#: includes-pro/addons/cpt-support/class/OS_CPT_Support.class.php:98
+msgid "Custom Post Type Support"
+msgstr ""
+
+#: includes-pro/classes/licence.php:124
+msgid "Deactivate License"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:359
+msgid ""
+"Delete all \"Series Grouping\" data from the database when deleting the "
+"plugin."
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:225
+msgid "Edit Series Group"
+msgstr ""
+
+#: includes-pro/addons/cpt-support/class/OS_CPT_Support.class.php:109
+msgid "Enable PublishPress Series for custom post types."
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:451
+msgid "Group(s)"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:492
+#: includes-pro/addons/grouping/legacy-includes.php:547
+msgid "Groups"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:252
+msgid ""
+"Hmm... it looks like there is already a series with that name. Try something "
+"else"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://publishpress.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://publishpress.com/publishpress-series/"
+msgstr ""
+
+#: includes-pro/classes/licence.php:93
+msgid "License key:"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:228
+msgid "New Series Group"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:472
+msgid "No group"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:302
+msgid "Part"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:223
+msgid "Popular Series Groups"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:310
+msgid "Post title in widget:"
+msgstr ""
+
+#: includes-pro/addons/cpt-support/class/OS_CPT_Support.class.php:96
+#: includes-pro/addons/cpt-support/class/OS_CPT_Support.class.php:119
+msgid "Post Types"
+msgstr ""
+
+#. Author of the plugin
+msgid "PublishPress"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"PublishPress Series allows you to group content together into a series. This "
+"is ideal for magazines, newspapers, short-story writers, teachers, comic "
+"artists, or anyone who writes multiple posts on the same topic."
+msgstr ""
+
+#. Name of the plugin
+msgid "PublishPress Series Pro"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:222
+msgid "Search Series Groups"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:402
+#: includes-pro/addons/multiples/os-multi-setup.php:282
+#: includes-pro/addons/multiples/os-multi-setup.php:301
+msgid "Series"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:353
+msgid "Series Grouping Feature"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:229
+msgid "Series Groups"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:123
+msgid "Series:"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:236
+msgid "Sorry but you don't have permission to add series"
+msgstr ""
+
+#: includes-pro/classes/licence.php:100
+msgid "Status"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:220
+msgctxt "taxonomy general name"
+msgid "Manage Series Groups"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:221
+msgctxt "taxonomy singular name"
+msgid "Series Group"
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:247
+msgid ""
+"The name you picked isn't sanitizing correctly. Try something different."
+msgstr ""
+
+#: includes-pro/addons/multiples/os-multi-setup.php:76
+msgid "To remove a post from series, just deselect any checkboxes"
+msgstr ""
+
+#: includes-pro/addons/grouping/legacy-includes.php:226
+msgid "Update Series Group"
+msgstr ""
+
+#: includes-pro/addons/extra-tokens/legacy-includes.php:87
+msgid "Will display the post author of the post in the series"
+msgstr ""
+
+#: includes-pro/addons/extra-tokens/legacy-includes.php:90
+msgid "Will display the post thumbnail of a post belonging to the series"
+msgstr ""
+
+#: includes-pro/addons/extra-tokens/legacy-includes.php:93
+msgid "Will display the published date of a post within a series"
+msgstr ""
+
+#: includes-pro/addons/extra-tokens/legacy-includes.php:84
+msgid "Will display the series id of the series"
+msgstr ""
+
+#: includes-pro/addons/extra-tokens/legacy-includes.php:81
+msgid "Will display the slug for the series"
+msgstr ""
+
+#: includes-pro/classes/licence.php:103
+msgid "Your license key provides access to updates and support."
+msgstr ""

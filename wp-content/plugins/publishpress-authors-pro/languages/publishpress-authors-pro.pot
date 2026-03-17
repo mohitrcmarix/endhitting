@@ -1,0 +1,472 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: PublishPress Authors Pro\n"
+"POT-Creation-Date: 2022-11-02 15:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: publishpress-authors-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"\n"
+"Language: "
+
+#: modules/author-custom-layouts/author-custom-layouts.php:215
+#: modules/author-custom-fields/author-custom-fields.php:152
+#, php-format
+msgid "%1$s Image"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:208
+#: modules/author-custom-fields/author-custom-fields.php:145
+#, php-format
+msgid "%2$s"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:221
+#: modules/author-custom-fields/author-custom-fields.php:158
+#, php-format
+msgid "%2$s list"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:220
+#: modules/author-custom-fields/author-custom-fields.php:157
+#, php-format
+msgid "%2$s list navigation"
+msgstr ""
+
+#: modules/prosettings/prosettings.php:166
+msgid "Activated"
+msgstr ""
+
+#: modules/shortcode-authors-list/shortcode-authors-list.php:57
+msgid "Add a shortcode for displaying list of authors"
+msgstr ""
+
+#: modules/automap-author/automap-author.php:52
+msgid "Add bulk action to automatically map authors to users"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:205
+#: modules/author-custom-fields/author-custom-fields.php:142
+#, php-format
+msgid "Add New %1$s"
+msgstr ""
+
+#: modules/buddypress-integration/buddypress-integration.php:54
+msgid "Add support for BuddyPress profile links."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:63
+#: modules/author-custom-fields/author-custom-fields.php:67
+msgid "Add support for custom fields in the author profiles."
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:69
+#: modules/author-custom-layouts/author-custom-layouts.php:73
+msgid "Add support for custom layouts in the author boxes."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:131
+msgid "Author Field"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:62
+#: modules/author-custom-fields/author-custom-fields.php:132
+#: modules/author-custom-fields/author-custom-fields.php:190
+msgid "Author Fields"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:194
+#: modules/author-custom-layouts/author-custom-layouts.php:296
+msgid "Author Layout"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:198
+#, php-format
+msgctxt "Author Layout post type name"
+msgid "%2$s"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:272
+msgid "Author Layout published."
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:273
+msgid "Author Layout saved."
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:274
+msgid "Author Layout submitted."
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:270
+#: modules/author-custom-layouts/author-custom-layouts.php:271
+msgid "Author Layout updated."
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:68
+#: modules/author-custom-layouts/author-custom-layouts.php:195
+#: modules/author-custom-layouts/author-custom-layouts.php:253
+#: modules/author-custom-layouts/author-custom-layouts.php:297
+msgid "Author Layouts"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:508
+msgid "Author's metadata"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:510
+msgid "Author's user metadata"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:506
+msgid "Author's website URL"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:108
+msgid "Authors Index"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:109
+msgid "Authors Recent"
+msgstr ""
+
+#: modules/automap-author/automap-author.php:51
+msgid "Auto map authors to users"
+msgstr ""
+
+#: modules/automap-author/automap-author.php:94
+msgid "Auto map guest authors to users by the slug"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:103
+msgid "Boxed"
+msgstr ""
+
+#: modules/buddypress-integration/buddypress-integration.php:53
+msgid "BuddyPress Integration"
+msgstr ""
+
+#: modules/buddypress-integration/buddypress-integration.php:121
+msgid "BuddyPress Profile Link"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:104
+msgid "Centered"
+msgstr ""
+
+#: modules/prosettings/prosettings.php:256
+#: modules/prosettings/prosettings.php:264
+msgid "Create default layouts"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:233
+msgid "Custom Field"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:151
+#, php-format
+msgctxt "custom field post type menu name"
+msgid "%2$s"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:135
+#, php-format
+msgctxt "Custom Field post type name"
+msgid "%2$s"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:209
+msgid "Custom Field published."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:210
+msgid "Custom Field saved."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:211
+msgid "Custom Field submitted."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:207
+#: modules/author-custom-fields/author-custom-fields.php:208
+msgid "Custom Field updated."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:234
+msgid "Custom Fields"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:214
+#, php-format
+msgctxt "custom layout post type menu name"
+msgid "%2$s"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:502
+#: modules/author-custom-fields/author-custom-fields.php:317
+msgid "Description"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:347
+#: modules/author-custom-fields/author-custom-fields.php:284
+msgid "Details"
+msgstr ""
+
+#: modules/prosettings/prosettings.php:146
+msgid "Display PublishPress branding in the admin:"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:536
+msgid "documentation"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:206
+#: modules/author-custom-fields/author-custom-fields.php:143
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:504
+msgid "Email address"
+msgstr ""
+
+#: modules/prosettings/prosettings.php:181
+msgid "Enter the license key for being able to update the plugin."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:294
+msgid "Field Slug"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:308
+msgid "Field Type"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:191
+msgid "Fields"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:219
+#: modules/author-custom-fields/author-custom-fields.php:156
+#, php-format
+msgid "Filter %2$s list"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:470
+msgid "Help"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://publishpress.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://publishpress.com/"
+msgstr ""
+
+#: modules/prosettings/prosettings.php:168
+msgid "Inactive"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:105
+msgid "Inline"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:106
+msgid "Inline with Avatars"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:369
+msgid "Layout Code"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:357
+msgid "Layout Slug"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:254
+msgid "Layouts"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:412
+msgid "Legacy"
+msgstr ""
+
+#: modules/prosettings/prosettings.php:138
+msgid "License key:"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:498
+#: modules/author-custom-layouts/author-custom-layouts.php:577
+msgid "Name"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:207
+#: modules/author-custom-fields/author-custom-fields.php:144
+#, php-format
+msgid "New %1$s"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:204
+#: modules/author-custom-fields/author-custom-fields.php:141
+#, php-format
+msgid "New %1s"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:211
+#: modules/author-custom-fields/author-custom-fields.php:148
+#, php-format
+msgid "No %2$s found"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:212
+#: modules/author-custom-fields/author-custom-fields.php:149
+#, php-format
+msgid "No %2$s found in Trash"
+msgstr ""
+
+#: publishpress-authors-pro.php:104
+msgid ""
+"Please, deactivate and remove PublishPress Multiple Authors before using "
+"PublishPress Authors Pro."
+msgstr ""
+
+#: modules/prosettings/prosettings.php:87
+msgid "Pro Settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "PublishPress"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"PublishPress Authors allows you to add multiple authors and guest authors to "
+"WordPress posts."
+msgstr ""
+
+#. Name of the plugin
+msgid "PublishPress Authors Pro"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:217
+#: modules/author-custom-fields/author-custom-fields.php:154
+#, php-format
+msgid "Remove %1$s Image"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:210
+#: modules/author-custom-fields/author-custom-fields.php:147
+#, php-format
+msgid "Search %2$s"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:216
+#: modules/author-custom-fields/author-custom-fields.php:153
+#, php-format
+msgid "Set %1$s Image"
+msgstr ""
+
+#: modules/shortcode-authors-list/shortcode-authors-list.php:56
+msgid "Shortcode Authors List"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:495
+msgid "Show author details:"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:526
+msgid "Show avatar:"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:107
+msgid "Simple List"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:199
+#, php-format
+msgctxt "singular author layout post type name"
+msgid "%1$s"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:136
+#, php-format
+msgctxt "singular custom field post type name"
+msgid "%1$s"
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:556
+msgid "Slug"
+msgstr ""
+
+#: modules/prosettings/prosettings.php:177
+msgid "Status: "
+msgstr ""
+
+#. The param is a link for Twig documentation
+#: modules/author-custom-layouts/author-custom-layouts.php:485
+#, php-format
+msgid ""
+"The author layout accepts HTML and %s code. Javascript code is not accepted."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:297
+msgid ""
+"The slug allows only lowercase letters, numbers and underscore. It is used "
+"as an author's attribute when referencing the field in the custom layouts."
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:360
+msgid ""
+"The slug allows only lowercase letters, numbers and underscore. It is used "
+"for referencing the layout in shortcodes, hooks and functions."
+msgstr ""
+
+#: modules/prosettings/prosettings.php:260
+msgid ""
+"This action creates the default custom layouts if they don't exist or were "
+"accidentally deleted."
+msgstr ""
+
+#: modules/author-custom-fields/author-custom-fields.php:318
+msgid ""
+"This description appears under the fields and helps users understand their "
+"choice."
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:500
+msgid "URL for the Author's page"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:218
+#: modules/author-custom-fields/author-custom-fields.php:155
+#, php-format
+msgid "Use as %1$s Image"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:209
+#: modules/author-custom-fields/author-custom-fields.php:146
+#, php-format
+msgid "View %1$s"
+msgstr ""
+
+#: publishpress-authors-pro.php:103
+msgid "Warning"
+msgstr ""
+
+#: modules/author-custom-layouts/author-custom-layouts.php:370
+msgid "You can use Twig syntax here."
+msgstr ""

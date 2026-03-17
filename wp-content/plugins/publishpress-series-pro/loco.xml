@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="PublishPress Series Pro">
+  <domain name="publishpress-series-pro">
+    <project name="PublishPress Series Pro" slug="publishpress-series-pro">
+      <source>
+        <directory>includes-pro</directory>
+        <directory>includes-pro/classes</directory>
+        <directory>includes-pro/addons</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/publishpress-series-pro.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="organize-series">
+    <project name="PublishPress Series" slug="organize-series">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/organize-series.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>includes-pro</directory>
+    <directory>vendor</directory>
+  </exclude>
+</bundle>

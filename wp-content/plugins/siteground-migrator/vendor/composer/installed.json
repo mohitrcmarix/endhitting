@@ -1,0 +1,141 @@
+{
+    "packages": [
+        {
+            "name": "2createStudio/ShuttleExport",
+            "version": "dev-namespaced",
+            "version_normalized": "dev-namespaced",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stoyan0v/shuttle-export.git",
+                "reference": "8f370b5a9f9cf11c5ed16f12cf2edb0a0f5f1e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stoyan0v/shuttle-export/zipball/8f370b5a9f9cf11c5ed16f12cf2edb0a0f5f1e37",
+                "reference": "8f370b5a9f9cf11c5ed16f12cf2edb0a0f5f1e37",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/process": "v2.0.25"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "^6.1"
+            },
+            "time": "2017-05-14T09:57:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ShuttleExport\\": "src/"
+                }
+            },
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Emil Mohamed",
+                    "email": "emil@2c-studio.com"
+                }
+            ],
+            "description": "MySQL export library",
+            "homepage": "https://github.com/2createStudio/shuttle-export",
+            "support": {
+                "source": "https://github.com/stoyan0v/shuttle-export/tree/namespaced"
+            },
+            "install-path": "../2createStudio/ShuttleExport"
+        },
+        {
+            "name": "siteground/siteground-helper",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.siteground.com:wordpress/siteground-helper.git",
+                "reference": "4296c1c29c5c1b27cd3e4050daa8d1e4d3a4c7a6"
+            },
+            "time": "2023-02-22T12:42:54+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "SiteGround_Helper\\": "src/"
+                }
+            },
+            "install-path": "../siteground/siteground-helper"
+        },
+        {
+            "name": "siteground/siteground-i18n",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.siteground.com:wordpress/siteground-i18n.git",
+                "reference": "714db79a69f373acd8f8023aededc27e94463041"
+            },
+            "time": "2022-11-22T15:52:04+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "SiteGround_i18n\\": "src/"
+                }
+            },
+            "install-path": "../siteground/siteground-i18n"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v2.0.25",
+            "version_normalized": "2.0.25.0",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "7d92786475f2b7d4a4f4be4f0076732ace155df2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/7d92786475f2b7d4a4f4be4f0076732ace155df2",
+                "reference": "7d92786475f2b7d4a4f4be4f0076732ace155df2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "time": "2013-02-17T19:36:49+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/process/tree/v2.0.25"
+            },
+            "install-path": "../symfony/process/Symfony/Component/Process"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

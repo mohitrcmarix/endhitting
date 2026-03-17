@@ -1,0 +1,234 @@
+0000.000 (0) Opened log file at time: Fri, 13 Mar 2026 04:52:41 +0000 on http://localhost/test1
+0000.109 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.2.30 (apache2handler, Linux ctpl220 6.8.0-101-generic #101~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 11 13:19:54 UTC  x86_64) MySQL: 8.0.45-0ubuntu0.22.04.1 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.52 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 71.5M | 74M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.208 (0) Free space on disk containing Updraft's temporary directory: 384833.7 MB
+0000.362 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.526 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.727 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1773298726, seconds_ago=78835)
+0001.271 (0) Set semaphore last lock (fd) time to 2026-03-13 04:52:42
+0001.441 (0) Semaphore lock (fd) complete
+0001.780 (0) Backup run: resumption=0, nonce=ae59a719dcc8, file_nonce=ae59a719dcc8 begun at=1773377561 (1s ago), job type=backup
+0001.981 (0) Scheduling a resumption (1) after 300 seconds (1773377863) in case this run gets aborted
+0002.310 (0) Checking if we have a zip executable available
+0002.440 (0) Testing: /usr/bin/zip
+0002.823 (0) Output: zip warning: binziptest/test.zip not found or empty
+0002.949 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0003.049 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0003.199 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0003.316 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0003.506 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0003.642 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0003.801 (0) Working binary zip found: /usr/bin/zip
+0004.068 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0004.259 (0) Creation of backups of directories: beginning
+0004.503 (0) No backup of plugins: excluded by user's options
+0004.610 (0) No backup of themes: excluded by user's options
+0004.694 (0) No backup of uploads: excluded by user's options
+0004.802 (0) No backup of mu-plugins: excluded by user's options
+0004.902 (0) No backup of others: excluded by user's options
+0005.755 (0) Saving backup status to database (elements: 0)
+0005.974 (0) Beginning creation of database dump (WordPress DB)
+0006.107 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0006.398 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0006.896 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1606 bytes total)
+0007.049 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0007.642 (0) Table wp_options: Total expected rows (via COUNT): 566
+0008.081 (0) Table wp_options: Rows added in this batch (next record: 132983): 561 (uncompressed bytes in this segment=2623130) in 0.58 seconds
+0009.228 (0) Table wp_options: finishing file(s) (2, 430.3 KB)
+0009.608 (0) Table wp_users: Total expected rows (via COUNT): 3
+0009.771 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.182 (0) Table wp_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1886) in 0.58 seconds
+0010.757 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0011.258 (0) Table wp_usermeta: Total expected rows (via COUNT): 135
+0011.441 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.988 (0) Table wp_usermeta: Rows added in this batch (next record: 135): 135 (uncompressed bytes in this segment=11040) in 0.86 seconds
+0014.530 (0) Table wp_usermeta: finishing file(s) (2, 3.7 KB)
+0015.088 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 192
+0015.307 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.572 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 3450): 192 (uncompressed bytes in this segment=96886) in 0.68 seconds
+0017.837 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 7.5 KB)
+0018.411 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0019.102 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=623) in 0.69 seconds
+0020.309 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0020.731 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0021.012 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.744 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=765) in 1.01 seconds
+0022.467 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0023.221 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 564
+0023.914 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 10302): 564 (uncompressed bytes in this segment=60105) in 0.70 seconds
+0025.478 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 6.2 KB)
+0026.064 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0026.474 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.57 seconds
+0026.932 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0027.297 (0) Table wp_comments: Total expected rows (via COUNT): 24
+0027.416 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.679 (0) Table wp_comments: Rows added in this batch (next record: 42): 24 (uncompressed bytes in this segment=12481) in 0.39 seconds
+0028.169 (0) Table wp_comments: finishing file(s) (2, 3.1 KB)
+0028.395 (0) Table wp_links: Total expected rows (via COUNT): 0
+0028.804 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.45 seconds
+0029.279 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0029.690 (0) Table wp_postmeta: Total expected rows (approximate): 9036
+0038.911 (0) Table wp_postmeta: binary mysqldump finished (writes: 90, bytes 59785407, return code 0) in 9.04 seconds
+0039.326 (0) Table wp_postmeta: finishing file(s) (1, 4426.8 KB)
+0041.129 (0) Table wp_posts: Total expected rows (via COUNT): 1753
+0042.656 (0) Table wp_posts: Rows added in this batch (next record: 3183): 1753 (uncompressed bytes in this segment=59256345) in 3.13 seconds
+0043.414 (0) Table wp_posts: finishing file(s) (2, 6358.3 KB)
+0044.187 (0) Table wp_term_relationships: Total expected rows (approximate): 92
+0044.653 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 94 (uncompressed bytes in this segment=2145) in 0.47 seconds
+0045.361 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0046.681 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 18
+0047.190 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0047.875 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 20): 18 (uncompressed bytes in this segment=1596) in 1.94 seconds
+0048.718 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0049.987 (0) Table wp_termmeta: Total expected rows (via COUNT): 34
+0050.254 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0050.967 (0) Table wp_termmeta: Rows added in this batch (next record: 42): 34 (uncompressed bytes in this segment=2602) in 1.44 seconds
+0053.637 (0) Table wp_termmeta: finishing file(s) (2, 1.1 KB)
+0055.686 (0) Table wp_terms: Total expected rows (via COUNT): 18
+0055.928 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.259 (0) Table wp_terms: Rows added in this batch (next record: 20): 18 (uncompressed bytes in this segment=1508) in 1.78 seconds
+0057.926 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0058.549 (0) Table wp_e_events: Total expected rows (via COUNT): 10
+0058.793 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.888 (0) Table wp_e_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2552) in 0.42 seconds
+0059.186 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0059.617 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0059.789 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2474) in 0.21 seconds
+0060.089 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0060.396 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0060.556 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1331) in 0.23 seconds
+0061.073 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0061.717 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0061.801 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=760) in 0.21 seconds
+0062.202 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0062.516 (0) Table wp_orgseriesicons: Total expected rows (via COUNT): 0
+0062.670 (0) Table wp_orgseriesicons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=494) in 0.22 seconds
+0063.170 (0) Table wp_orgseriesicons: finishing file(s) (2, 0.3 KB)
+0063.588 (0) Table wp_sgs_log_events: Total expected rows (via COUNT): 541
+0063.753 (0) Table wp_sgs_log_events: Rows added in this batch (next record: 31945): 541 (uncompressed bytes in this segment=86763) in 0.21 seconds
+0064.397 (0) Table wp_sgs_log_events: finishing file(s) (2, 9.9 KB)
+0064.678 (0) Table wp_sgs_log_visitors: Total expected rows (via COUNT): 155
+0064.757 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.974 (0) Table wp_sgs_log_visitors: Rows added in this batch (next record: 10269): 155 (uncompressed bytes in this segment=6376) in 0.30 seconds
+0065.417 (0) Table wp_sgs_log_visitors: finishing file(s) (2, 1.9 KB)
+0066.178 (0) Table wp_wpf_meta: Total expected rows (via COUNT): 0
+0066.395 (0) Table wp_wpf_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=764) in 0.26 seconds
+0066.745 (0) Table wp_wpf_meta: finishing file(s) (2, 0.4 KB)
+0067.088 (0) Table wp_wpf_order_items: Total expected rows (via COUNT): 0
+0067.272 (0) Table wp_wpf_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1056) in 0.23 seconds
+0067.630 (0) Table wp_wpf_order_items: finishing file(s) (2, 0.5 KB)
+0067.990 (0) Table wp_wpf_order_transactions: Total expected rows (via COUNT): 0
+0068.074 (0) Table wp_wpf_order_transactions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1513) in 0.18 seconds
+0068.474 (0) Table wp_wpf_order_transactions: finishing file(s) (2, 0.5 KB)
+0068.800 (0) Table wp_wpf_submission_activities: Total expected rows (via COUNT): 0
+0068.884 (0) Table wp_wpf_submission_activities: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1020) in 0.10 seconds
+0069.317 (0) Table wp_wpf_submission_activities: finishing file(s) (2, 0.4 KB)
+0070.588 (0) Table wp_wpf_submissions: Total expected rows (via COUNT): 0
+0070.801 (0) Table wp_wpf_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2102) in 0.56 seconds
+0071.766 (0) Table wp_wpf_submissions: finishing file(s) (2, 0.5 KB)
+0072.195 (0) Table wp_wpf_subscriptions: Total expected rows (via COUNT): 0
+0072.319 (0) Table wp_wpf_subscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2214) in 0.28 seconds
+0072.727 (0) Table wp_wpf_subscriptions: finishing file(s) (2, 0.6 KB)
+0073.230 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 18
+0073.304 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.523 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=2809) in 0.56 seconds
+0073.922 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.7 KB)
+0074.641 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0074.950 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.56 seconds
+0075.350 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0075.712 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0075.919 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2178) in 0.32 seconds
+0076.211 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0076.628 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0076.720 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.947 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 7): 4 (uncompressed bytes in this segment=1007) in 0.48 seconds
+0077.356 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0077.723 (0) Table wp_wpsp_notifications: Total expected rows (via COUNT): 0
+0077.908 (0) Table wp_wpsp_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1429) in 0.33 seconds
+0078.275 (0) Table wp_wpsp_notifications: finishing file(s) (2, 0.5 KB)
+0078.594 (0) Table wp_wpsp_transactions: Total expected rows (via COUNT): 0
+0078.676 (0) Table wp_wpsp_transactions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1972) in 0.09 seconds
+0078.976 (0) Table wp_wpsp_transactions: finishing file(s) (2, 0.6 KB)
+0079.104 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_options.table.tmpr132984.gz (1/35/fopen): adding to final database dump
+0079.195 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_options.table.gz (2/35/fopen): adding to final database dump
+0079.285 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_users.table.tmpr4.gz (3/35/fopen): adding to final database dump
+0079.394 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_users.table.gz (4/35/fopen): adding to final database dump
+0079.486 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_usermeta.table.tmpr136.gz (5/35/fopen): adding to final database dump
+0079.678 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_usermeta.table.gz (6/35/fopen): adding to final database dump
+0079.770 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_actionscheduler_actions.table.tmpr3451.gz (7/35/fopen): adding to final database dump
+0079.979 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_actionscheduler_actions.table.gz (8/35/fopen): adding to final database dump
+0080.070 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/35/fopen): adding to final database dump
+0080.179 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_actionscheduler_claims.table.gz (10/35/fopen): adding to final database dump
+0080.287 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/35/fopen): adding to final database dump
+0080.396 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_actionscheduler_groups.table.gz (12/35/fopen): adding to final database dump
+0080.488 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_actionscheduler_logs.table.tmpr10303.gz (13/35/fopen): adding to final database dump
+0080.597 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_actionscheduler_logs.table.gz (14/35/fopen): adding to final database dump
+0080.688 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_commentmeta.table.tmpr0.gz (15/35/fopen): adding to final database dump
+0080.781 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_commentmeta.table.gz (16/35/fopen): adding to final database dump
+0080.873 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_comments.table.tmpr43.gz (17/35/fopen): adding to final database dump
+0080.957 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_comments.table.gz (18/35/fopen): adding to final database dump
+0081.065 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_links.table.tmpr0.gz (19/35/fopen): adding to final database dump
+0081.182 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_links.table.gz (20/35/fopen): adding to final database dump
+0081.282 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_postmeta.table.gz (21/35/fopen): adding to final database dump
+0081.456 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_posts.table.tmpr3184.gz (22/35/fopen): adding to final database dump
+0081.617 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_posts.table.gz (23/35/fopen): adding to final database dump
+0081.708 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_term_relationships.table.tmpr100001.gz (24/35/fopen): adding to final database dump
+0081.792 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_term_relationships.table.gz (25/35/fopen): adding to final database dump
+0081.926 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_term_taxonomy.table.tmpr21.gz (26/35/fopen): adding to final database dump
+0082.026 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_term_taxonomy.table.gz (27/35/fopen): adding to final database dump
+0082.109 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_termmeta.table.tmpr43.gz (28/35/fopen): adding to final database dump
+0082.193 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_termmeta.table.gz (29/35/fopen): adding to final database dump
+0082.293 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_terms.table.tmpr21.gz (30/35/fopen): adding to final database dump
+0082.394 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_terms.table.gz (31/35/fopen): adding to final database dump
+0082.502 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_e_events.table.tmpr11.gz (32/35/fopen): adding to final database dump
+0082.594 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_e_events.table.gz (33/35/fopen): adding to final database dump
+0082.703 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_e_submissions.table.tmpr0.gz (34/35/fopen): adding to final database dump
+0082.795 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_e_submissions.table.gz (35/35/fopen): adding to final database dump
+0082.903 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (36/35/fopen): adding to final database dump
+0082.995 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_e_submissions_actions_log.table.gz (37/35/fopen): adding to final database dump
+0083.103 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_e_submissions_values.table.tmpr0.gz (38/35/fopen): adding to final database dump
+0083.195 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_e_submissions_values.table.gz (39/35/fopen): adding to final database dump
+0083.329 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_orgseriesicons.table.tmpr0.gz (40/35/fopen): adding to final database dump
+0083.421 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_orgseriesicons.table.gz (41/35/fopen): adding to final database dump
+0083.538 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_sgs_log_events.table.tmpr31946.gz (42/35/fopen): adding to final database dump
+0083.630 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_sgs_log_events.table.gz (43/35/fopen): adding to final database dump
+0083.721 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_sgs_log_visitors.table.tmpr10270.gz (44/35/fopen): adding to final database dump
+0083.813 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_sgs_log_visitors.table.gz (45/35/fopen): adding to final database dump
+0084.039 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_meta.table.tmpr0.gz (46/35/fopen): adding to final database dump
+0084.114 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_meta.table.gz (47/35/fopen): adding to final database dump
+0084.189 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_order_items.table.tmpr0.gz (48/35/fopen): adding to final database dump
+0084.291 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_order_items.table.gz (49/35/fopen): adding to final database dump
+0084.391 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_order_transactions.table.tmpr0.gz (50/35/fopen): adding to final database dump
+0084.491 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_order_transactions.table.gz (51/35/fopen): adding to final database dump
+0084.591 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_submission_activities.table.tmpr0.gz (52/35/fopen): adding to final database dump
+0084.692 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_submission_activities.table.gz (53/35/fopen): adding to final database dump
+0084.792 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_submissions.table.tmpr0.gz (54/35/fopen): adding to final database dump
+0084.892 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_submissions.table.gz (55/35/fopen): adding to final database dump
+0084.992 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_subscriptions.table.tmpr0.gz (56/35/fopen): adding to final database dump
+0085.093 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpf_subscriptions.table.gz (57/35/fopen): adding to final database dump
+0085.193 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpforms_logs.table.tmpr19.gz (58/35/fopen): adding to final database dump
+0085.293 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpforms_logs.table.gz (59/35/fopen): adding to final database dump
+0085.393 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (60/35/fopen): adding to final database dump
+0085.493 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpforms_payment_meta.table.gz (61/35/fopen): adding to final database dump
+0085.594 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpforms_payments.table.tmpr0.gz (62/35/fopen): adding to final database dump
+0085.694 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpforms_payments.table.gz (63/35/fopen): adding to final database dump
+0085.803 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpforms_tasks_meta.table.tmpr8.gz (64/35/fopen): adding to final database dump
+0085.911 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpforms_tasks_meta.table.gz (65/35/fopen): adding to final database dump
+0086.003 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpsp_notifications.table.tmpr0.gz (66/35/fopen): adding to final database dump
+0086.095 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpsp_notifications.table.gz (67/35/fopen): adding to final database dump
+0086.203 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpsp_transactions.table.tmpr0.gz (68/35/fopen): adding to final database dump
+0086.295 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db-table-wp_wpsp_transactions.table.gz (69/35/fopen): adding to final database dump
+0086.411 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db.gz: finished writing out complete database file (11261.9 KB)
+0086.989 (0) Total database tables backed up: 35 (backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db.gz, size: 11532350, sha1: 2db470aa4923b31a5e60633c0d445e7a4f28c8aa, sha256: 7393138616b0012d5cdabe558a4a095017cf5eacb0b08dd03694a8655724addb)
+0087.492 (0) backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0087.592 (0) Saving backup history. Total backup size: 11 MB
+0087.793 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0088.126 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0088.235 (0) No remote despatch: user chose no remote backup service
+0088.319 (0) Recording as successfully uploaded: backup_2026-03-13-0052_Arkansans_Against_School_Paddlin_ae59a719dcc8-db.gz
+0088.503 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0088.611 (0) Resume backup (ae59a719dcc8, 0): finish run
+0088.903 (0) Decremented the semaphore (fd) by 1
+0089.170 (0) Semaphore (fd) unlocked
+0089.304 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0089.638 (0) No email will/can be sent - the user has not configured an email address.
+0089.746 (0) The backup succeeded and is now complete
